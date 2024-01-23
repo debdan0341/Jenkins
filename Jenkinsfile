@@ -5,7 +5,7 @@ pipeline {
 		        stage('Checkout') {
 		            steps {
 		                // Checkout Selenium UI testing framework code from the Git repository
-				 git branch: 'master', url:''
+				 git branch: 'master', url:'https://github.com/debdan0341/Jenkins_Home_Assignment.git'
 
 		                echo 'checkout'
 		              }
@@ -47,4 +47,5 @@ pipeline {
 	        }
           }
 	
+}
 }
